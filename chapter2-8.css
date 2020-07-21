@@ -3,3 +3,80 @@
   padding: 0;
   box-sizing: border-box;
 }
+.clearfix::agter {
+  content: "";
+  display: block;
+  clear: both;
+}
+.list {
+  width: 960px
+  margin-top: 50px;
+  margin-bottom: 50px;
+  float: center;
+}
+.list p{
+  margin: 20px 20px 20px 0;
+  display: inline-block;
+}
+.list p:nth-child(even) {
+  background-color: #f7f7f7
+}
+.main-visual {
+  width: 960px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.box1 {
+  width: 30%;
+  height: 200px;
+  margin: 0 40px 5% 0;
+  background-color: orange;
+  float: left;
+}
+.box2 {
+  width: 30%;
+  height: 200px;
+  margin: 0 40px 5% 0;
+  background-color: yellow;
+  float: left;
+}
+.box3 {
+  width: 30%;
+  height: 200px;
+  margin: 0 40px 0 0;
+  background-color: yellow;
+  float: left;
+}
+.box4 {
+  width: 30%;
+  height: 200px;
+  margin: 0 40px 5% 0;
+  background-color: yellow;
+  float: left;
+}
+.box5 {
+  width: 30%;
+  height: 200px;
+  margin: 0 40px 5% 0;
+  background-color: orange;
+  float: left;
+}
+.box6 {
+  width: 30%;
+  height: 200px;
+  margin: 0 0 5% 0;
+  background-color: yellow;
+  float: left;
+}
+.box7 {
+  width: 30%;
+  height: 200px;
+  margin: 0 0 5% 0;
+  background-color: yellow;
+  float: left;
+}
+.box8 {
+  width: 30%;
+  height: 200px;
+  background-color: orange;
+}
